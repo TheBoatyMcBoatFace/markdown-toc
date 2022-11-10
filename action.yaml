@@ -42,6 +42,7 @@ runs:
         committer: GitHub <noreply@github.com>
         author: markdown-toc[bot] <markdown-toc[bot]@users.noreply.github.com>
         branch: t/bot/markdown-toc
+        labels: automerge,actions
 
 branding:
   icon: 'list'
