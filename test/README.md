@@ -13,10 +13,8 @@
   - [article5.md](test/folder/2-chapter2/article5.md)
   - [article6.md](test/folder/2-chapter2/article6.md)
   - [article7.md](test/folder/2-chapter2/article7.md)
-- [esft.css](test/folder/esft.css)
-- hello
-  - [jhkj.jhk](test/folder/hello/jhkj.jhk)
-  - [test.html](test/folder/hello/test.html)
+- hkj
+  - [hkj.html](test/folder/hkj/hkj.html)
 - [jkjh.md](test/folder/jkjh.md)
 - [test.html](test/folder/test.html)
 - [test.ignore](test/folder/test.ignore)
