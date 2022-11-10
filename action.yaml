@@ -6,13 +6,13 @@ inputs:
   content-path:
     description: 'Path of the documents to be listed in catalog.'
     required: true
-  document-path: 
+  document-path:
     description: 'Path of the catalog document.'
     required: true
   filter:
     description: 'Filename Regex filter'
     required: false
-    #default: '\(.*\).md'
+    default: '\(.*\).md'
 # Above comment allows all files, not just .md, to be cataloged
 runs:
   using: 'composite'
@@ -34,7 +34,7 @@ runs:
         git config --local user.name "markdown-toc[bot]"
         git config --local user.email "markdown-toc[bot]@users.noreply.github.com"
         git commit -a -m 'Automated catalog update'
-      
+
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
