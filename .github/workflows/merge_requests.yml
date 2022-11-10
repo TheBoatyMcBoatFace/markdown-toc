@@ -14,5 +14,5 @@ jobs:
       with:
         github-token: ${{ secrets.TOKEN }}
         number: 1
-       # method: squash
-       # repo: theboatymcboatface/markdown-toc
+        method: merge
+        repo: theboatymcboatface/markdown-toc
