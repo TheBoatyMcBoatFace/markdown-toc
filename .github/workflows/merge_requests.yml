@@ -10,9 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: juliangruber/merge-pull-request-action@v1
+    - uses: juliangruber/approve-pull-request-action@v2.0.0
       with:
         github-token: ${{ secrets.TOKEN }}
         number: 1
-        method: squash
-        repo: theboatymcboatface/markdown-toc
+       # method: squash
+       # repo: theboatymcboatface/markdown-toc
