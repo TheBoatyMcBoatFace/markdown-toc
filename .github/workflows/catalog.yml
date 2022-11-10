@@ -1,4 +1,4 @@
-name: minoic-auto-catalog
+name: markdown-toc
 
 on:
   push:
@@ -9,9 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: minoic/markdown-auto-catalog@v1.0.0
+    - uses: theboatymcboatface/markdown-toc@latest
       with:
         content-path: 'test/folder'
         document-path: 'test/README.md'
-        filter: '\(.*\).md'
+        #filter: '\(.*\).md'
       continue-on-error: true
