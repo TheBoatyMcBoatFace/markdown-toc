@@ -13,5 +13,5 @@ jobs:
       with:
         content-path: 'test/folder'
         document-path: 'test/README.md'
-        #filter: '\(.*\).md'
+        filter: '\(\(.*\)\.[^ignore|.DS_Store].*\)'
       continue-on-error: true
