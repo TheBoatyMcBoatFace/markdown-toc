@@ -26,6 +26,5 @@ jobs:
         uses: "pascalgn/automerge-action@v0.15.5"
         env:
           GITHUB_TOKEN: "${{ MARKDOWNTOCSECRET }}"
-          MERGE_LABELS: "automerge"
-          MERGE_REMOVE_LABELS: "automerge"
+          MERGE_FILTER_AUTHOR: "github-actions"
           MERGE_METHOD: "merge"
