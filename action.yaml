@@ -41,7 +41,7 @@ runs:
         title: '[Bot] Automated catalog update'
         committer: GitHub <noreply@github.com>
         author: markdown-toc[bot] <markdown-toc[bot]@users.noreply.github.com>
-        branch: t/bot/markdown-toc
+        branch: main
         labels: automerge,actions
 
 branding:
