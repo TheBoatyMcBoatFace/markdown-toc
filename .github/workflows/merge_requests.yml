@@ -7,14 +7,12 @@ on:
   workflow_dispatch:  
   
 jobs:
-  merge_it_all:
-    name: merge_request
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: juliangruber/merge-pull-request-action@v1
-      - name: Merge Pull Request
-        with:
-          github-token: ${{ secrets.TOKEN }}
-          number: 1
-          method: squash
-          repo: juliangruber/octokit-action
+    - uses: juliangruber/merge-pull-request-action@v1
+      with:
+        github-token: ${{ secrets.TOKEN }}
+        number: 1
+        method: squash
+        repo: juliangruber/octokit-action
