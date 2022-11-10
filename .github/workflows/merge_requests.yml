@@ -7,7 +7,8 @@ on:
   workflow_dispatch:  
   
 jobs:
-  merge_request:
+  merge_it_all:
+    name: merge_request
     runs-on: ubuntu-latest
     steps:
       - uses: juliangruber/merge-pull-request-action@v1
