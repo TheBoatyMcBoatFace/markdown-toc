@@ -17,5 +17,6 @@
 - [jkjh.md](test/folder/jkjh.md)
 - [test.html](test/folder/test.html)
 - [test.md](test/folder/test.md)
+- [texbht.html](test/folder/texbht.html)
 
 <!-- catalog -->
