@@ -1,8 +1,7 @@
 name: Merge pull requests (automerge-action)
 on:
   pull_request:
-    branches:
-    - main 
+  
 jobs:
   automerge:
     runs-on: ubuntu-latest
