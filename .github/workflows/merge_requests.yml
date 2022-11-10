@@ -15,4 +15,4 @@ jobs:
         github-token: ${{ secrets.TOKEN }}
         number: 1
         method: squash
-        repo: juliangruber/octokit-action
+        repo: theboatymcboatface/markdown-toc
