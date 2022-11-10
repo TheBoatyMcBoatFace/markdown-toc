@@ -13,6 +13,5 @@ jobs:
     - uses: juliangruber/merge-pull-request-action@v1
       with:
         github-token: ${{ secrets.TOKEN }}
-        number: 1
         method: merge
         repo: theboatymcboatface/markdown-toc
