@@ -1,6 +1,6 @@
 # Markdown Table of Contents
 GitHub action automatically update folder-based table of contents in documents.
-
+ 
 This bot will help you scan folders and add directories to the specified location of the specified document as a list.
 
 ## Usage
